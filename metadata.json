@@ -1,0 +1,6 @@
+{
+  "name": "平阳水头在线·乡情家园",
+  "description": "平阳水头本地综合生活与乡情互动平台，集本地商圈优惠、水头老街回忆录、微帖短视频交流、家乡新闻动态、求职招聘与便民服务于一体。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

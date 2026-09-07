@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  shuitou-homeland:
+    build: .
+    container_name: shuitou-homeland-server
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      # 持久化数据库挂载目录：评论、帖子、招聘、商户数据在此永久保存
+      - ./data:/app/data
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
